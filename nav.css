@@ -1,0 +1,20 @@
+header {
+     width: 100%;
+     background-color: #fff;
+     color: black;
+}
+nav {
+    border: 1px solid black;
+                text-align: center;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    /*color: black;*/
+}
+li {
+    display: inline-block;
+}
