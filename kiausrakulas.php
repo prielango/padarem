@@ -25,23 +25,7 @@ $h2 = "JEI MUSI KIAUSINIUS SU $zmones zmonem, tavo tikimybe laimeti bus - $tikim
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.php">INDEX</a>
-                    </li>
-                    <li>
-                        <a href="about.php">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="contact.php">CONTACT</a>
-                    </li>
-                    <li>
-                        <a href="wip.php">WIP</a>
-                    </li>
-                    
-                </ul>
-            </nav>
+            <?php include 'nav.php'; ?>
         </header>
         <div class="container">
             <h1><?php print $kiausrakulas; ?></h1>
